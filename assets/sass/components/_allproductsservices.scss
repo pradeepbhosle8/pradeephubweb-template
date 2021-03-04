@@ -1,0 +1,236 @@
+.allproducts-services{
+ 
+	
+
+	.section-singleprod-serv{
+			display: -webkit-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			// border-top: 1px solid #e6ecf2;
+			flex: 1;
+			background-color: #fff;
+			// padding: 10px;
+			position: relative;
+
+			
+
+			.banner-common{
+			position: relative;
+			box-sizing: border-box;
+			// width: 300px;
+			width: 100%;
+			height: 300px;
+			overflow: hidden;
+			.item{
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 100%;
+            font-size: 1.5rem;
+            color: #fff;
+            background: #18f;
+            background-image: linear-gradient(45deg, #18f, #5eafff 55%, #86c3ff 86%);
+            cursor: pointer;
+            margin-right: 5px;
+            margin-top: 5px;
+            margin-left: 5px;
+            text-decoration: none;
+
+            &:hover{
+                opacity: 0.6;
+            }
+
+            .dealers-title{
+                display: block;
+                padding: 10px 15px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .vertBottom{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: block;
+                height: 65px;
+                background: #06c;
+                z-index: 1;
+            }
+
+            .dealers-img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: center;
+                z-index: 2;
+
+                img{
+                        max-width: 100%;
+                }
+            }
+
+        }
+        .bg1{
+            background: #00cfcb;
+            background-image: linear-gradient(45deg,#00cfcb,#36f5f2 55%,#99f8fb 86%);
+            .vertBottom{
+                background: #00cfcb;
+            }
+          }
+        .bg2{
+           background: #9b9b9b;
+    background-image: linear-gradient(45deg,#9b9b9b,#f0f0f0);
+            .vertBottom{
+                background: #9b9b9b;
+            } 
+        } 
+
+        .bg3{
+              background: #f7b19d;
+    background-image: linear-gradient(45deg,#e7703f,#ffd3c7);
+            .vertBottom{
+                background: #f7b19d;
+            } 
+        }
+			a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			padding: 30px 30px 30px 0px;
+			box-sizing: border-box;
+
+			.theme-img{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			}
+
+			.theme-info{
+				position: relative;
+
+				.theme-title{
+					font-weight: 500;
+					margin-bottom: 20px;
+					font-size: 22px;
+					line-height: 30px;
+					color: #222;
+
+				}
+
+			}
+
+			}
+
+			}
+
+			.del-productslide{
+				width: 100%;
+				height: 100%;
+				// background-color: red; 
+				overflow: hidden;
+			}
+
+
+
+			.products-list{
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			// border-top: 1px solid #e6ecf2;
+			flex: 1;
+			margin-left: 7px;
+			    padding:6px 13px;
+			    transition: all .2s ease-in-out;
+
+
+			.prod-item{
+			position: relative;
+			box-sizing: border-box;
+			border: 1px dashed #878787;
+			width: auto;
+
+			a{
+			position: relative;
+			display: block;
+			padding: 15px;
+			text-decoration: none;
+
+			.img-wrap{
+				// margin-top: -24px;
+				text-align: right;
+				font-size: 0;
+				    overflow: hidden;
+
+				
+
+				img{
+					width: 100%;
+				}
+			}
+
+			.info-wrap{
+
+				
+				.info-title{
+
+					h3{
+					font-size: 17px;
+					color: #575757;
+					font-weight: 600;
+					margin-bottom: 5px;
+					padding: 12px 5px 0;
+					clear: both;
+					height: auto;
+					overflow: hidden;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					display: -webkit-box;
+					line-height: 22px;
+					text-transform: capitalize;
+					}
+					.strike{
+					font-weight: 500;
+					font-size: 15px;
+					color: #757575;
+					margin-right: 12px;
+					text-decoration: line-through;
+					}
+					.amt{
+						font-weight: 700;
+					font-size: 15px;
+					color: #757575;
+					}
+					.discount_off{
+					color: #24a3b5;
+					// text-align: left;
+					font-size: 18px;
+					font-weight: 700;
+					display: block;
+					margin-top: 5px;
+					text-align: left;
+					}	
+
+				}
+
+			}
+
+		
+
+			}
+
+
+			}
+
+			&:hover .img-wrap img{
+				transform: scale(1.08);
+				 transition: all .2s ease-in-out;
+
+			}
+   
+	}
+}
+}

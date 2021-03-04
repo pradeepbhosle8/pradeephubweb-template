@@ -1,0 +1,146 @@
+#herobanner{
+       padding: 1px 0 12px;
+    
+   
+    margin-top: 92px ;
+    padding-bottom: 50px;
+   //    background-image: linear-gradient(225deg, #fbfbfb 0%, #adadad 100%);
+   //  &:before{
+   //  position: absolute;
+   //  top: 0;
+   //  left: 0;
+   //  width: 100%;
+   //  height: 100vh;
+   //  content: ' ';
+   //  background-image: url(../../assets/images/texture-shapes-bg1.png);
+   //  background-repeat: repeat;
+
+   // }
+
+    .bg-tabs-holder{
+        height: 300px;
+        margin-top: 14px;
+        overflow: hidden;
+
+         img{
+        width: 100%;
+        max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+    }
+
+         .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.2;
+        z-index: 2;
+    }
+    .op7 {
+        opacity: 0.2 !important;
+    }
+    }
+
+    .type2{
+        width: 59%;
+        height: 300px;
+        float: left;
+         img{
+        width: 100%;
+        max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+    }
+    }
+   
+  
+   
+
+    .dealers-items{
+          // position: relative;
+          width: 98%;
+
+        .item{
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 180px;
+            font-size: 1.5rem;
+            color: #fff;
+            background: #18f;
+            background-image: linear-gradient(45deg, #18f, #5eafff 55%, #86c3ff 86%);
+            cursor: pointer;
+            margin-right: 5px;
+            margin-top: 5px;
+            margin-left: 5px;
+            text-decoration: none;
+
+            &:hover{
+                opacity: 0.6;
+            }
+
+            .dealers-title{
+                display: block;
+                padding: 10px 15px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .vertBottom{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: block;
+                height: 65px;
+                background: #06c;
+                z-index: 1;
+            }
+
+            .dealers-img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: center;
+                z-index: 2;
+
+                img{
+                        max-width: 100%;
+                }
+            }
+
+        }
+        .bg1{
+            background: #00cfcb;
+            background-image: linear-gradient(45deg,#00cfcb,#36f5f2 55%,#99f8fb 86%);
+            .vertBottom{
+                background: #00cfcb;
+            }
+          }
+        .bg2{
+           background: #9b9b9b;
+    background-image: linear-gradient(45deg,#9b9b9b,#f0f0f0);
+            .vertBottom{
+                background: #9b9b9b;
+            } 
+        } 
+
+        .bg3{
+              background: #f7b19d;
+    background-image: linear-gradient(45deg,#e7703f,#ffd3c7);
+            .vertBottom{
+                background: #f7b19d;
+            } 
+        }  
+
+    }
+
+    .offering-slider{
+        float: left;width: 39%;background-color: #e1e1e1;height: 300px;margin-left: 11px;margin-top:14px;
+    }
+}

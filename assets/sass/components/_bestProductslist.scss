@@ -1,0 +1,60 @@
+.bestProductslist{
+
+
+	#bestoffers{
+		padding-left: 0;
+    position: relative;
+    margin: 35px 0 20px;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 5px;
+        width: 100%;
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+
+    li{
+    	// position: absolute;
+        top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: .4s ease;
+    border-radius: 6px;
+    margin-right: 0px;
+    color: #000;
+    margin-bottom:0px;
+   
+
+    a{
+    	    cursor: pointer;
+    display: block;
+    color: #000;
+    padding: 20px 57px;
+    background-color: transparent !important;
+    transition: .4s ease;
+    border: none;
+     border-top-left-radius: 0px;
+    border-top-right-radius:0px;
+
+
+    }
+
+    .active{
+        background-color: #00a1b5 !important;
+    color: #fff;
+    border: none;
+
+    }
+   
+
+    }
+
+    }
+
+    }
+    
+
+    
+
+
+

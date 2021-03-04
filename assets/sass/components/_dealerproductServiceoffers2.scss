@@ -1,0 +1,229 @@
+.dealer-productService-offers-part2{
+	// background: #fff;
+
+	.section-title{
+		position: relative;
+		padding-bottom: 34px;
+		h6{
+			margin-bottom: 0;
+			font-size: 20px;
+			display: inline-block;
+			color: #201654;
+			    font-weight: 600;
+			    font-family: 'Roboto', sans-serif;
+			     &:before{
+				content: '';
+				width: 50%;
+				height: 1px;
+				background-color: #c1c1c1;
+				position: absolute;
+				bottom: 23px;
+    	
+   						 }
+		}
+	}
+
+	.delar-container{
+		position: relative;
+    background-color: #fff;
+    padding: 12px;
+    height: 115px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, .08);
+    border-radius: 5px;
+    width: 112px;
+        border: 1px solid #e1e1e1;
+        margin-bottom: 15px;
+
+    	img{
+    		max-width: 100%;
+    height: 90px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    object-fit: scale-down;
+    padding: 5px 0;
+    	}
+
+    	a{
+			color: #337ab7;
+			text-decoration: none;
+			&:before{
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+			content: '';
+    		}
+
+    		.overlay{
+				position: absolute;
+				bottom: 100%;
+				top: 0;
+				left: 0;
+				background-color: #57bfbf;
+				overflow: hidden;
+				width: 100%;
+				height: 0;
+				transition: .3s ease;
+
+				.totalDeals{
+					color: #fff;
+					white-space: nowrap;
+					font-size: 18px;
+					line-height: 25px;
+					font-weight: 100;
+					position: absolute;
+					overflow: hidden;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+				}
+    		}
+    	}
+
+    	&:hover .overlay{
+    		    bottom: 0;
+    height: 100%;
+    	}
+
+	}
+
+	.top-list-prod-item{
+
+		.single-top-i{
+			margin-bottom:2px;
+			.media{
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: start;
+				-ms-flex-align: start;
+				align-items: flex-start;
+
+				.media-left{
+					margin-right: 13px;
+					width: 40%;
+
+					    img{
+					border-radius: 5px;
+					display: block;
+					width: 100%;
+					    }
+				}
+				.media-body{
+				-webkit-box-flex: 1;
+				-ms-flex: 1;
+				flex: 1;
+
+				.info{
+					width: 100%;
+					.info-offer{
+						font-size: 17px;
+						font-weight: 700;
+						color: #201654;
+						span{
+							color:#57bfbf;
+						}
+					}
+					.info-title{
+						a{
+							font-size: 17px;
+							color: #575757;
+							font-weight: 600;
+							margin-bottom: 5px;
+							padding: 0px 0 0;
+							clear: both;
+							height: auto;
+							overflow: hidden;
+							-webkit-line-clamp: 2;
+							-webkit-box-orient: vertical;
+							display: -webkit-box;
+							line-height: 22px;
+							text-transform: capitalize;
+							text-decoration: none;
+						}
+						
+					}
+				}
+
+
+				}
+			}
+		}
+	}
+
+	.top-list-prod-offer-item{
+		.p-singleOffers{
+			background-color: #fff;
+			border-radius: 4px;
+			box-shadow: 0px 0px 16px rgba(0, 0, 0, .18);
+			box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .08);
+			overflow: hidden;
+			margin-bottom: 15px;
+			cursor: pointer;
+
+			.imgsecOffer{
+			   height: 72px;
+    overflow: hidden;
+    position: relative;
+    width: 56%;
+    margin: 5px auto;
+
+			    img{    width: 100%;}
+			}
+
+			.Odetials{
+				    padding: 0 21px;
+    height: 96px;
+
+				span{
+					position: relative;
+					display: -webkit-box;
+					padding-bottom: 0;
+					margin-bottom: 5px;
+					max-height: 53px;
+					font-weight: 500;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					    font-size: 17px;
+    color: #575757;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding: 0px 0 0;
+    clear: both;
+    height: auto;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-height: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+				}
+
+				.desCpn{
+					span{
+						color: #2ba828;
+					margin-bottom: 10px;
+					font-size: 14px;
+					font-weight: 500;
+					overflow: hidden;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					display: -webkit-box;
+					}
+				}
+
+			}
+
+
+		}
+	}
+
+
+}

@@ -1,0 +1,95 @@
+// @media only screen and  (min-width: 1440px) {
+//     body{
+//         background-color:purple ;
+//     }
+  
+// }
+
+// @media only screen and (min-width: 1200px){
+//     body{
+//         background-color: red ;
+//     }
+   
+// }
+
+
+// @media only screen and (min-width: 766px)and (max-width: 1200px)  {
+//     body{
+//         background-color: green ;
+//     }
+       
+// }
+
+@media only screen and (min-width: 767px) {
+    // body{
+    //     background-color: pink ;
+    // }
+
+
+       
+       
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    // body{
+    //     background-color: blue ;
+    // }
+
+#herobanner{
+        .type2, .offering-slider{
+            width: 100%;
+            height: auto;
+            margin-top: 156px;
+        }
+        .offering-slider{
+            margin-top: 10px;
+        }
+    }
+
+ 
+
+    
+}
+
+@media only screen and (max-width: 650px) {
+    // body{
+    //     background-color: orange ;
+    // }
+ #main-header{
+           border-bottom: 5px solid #e1e1e1;
+    box-shadow: 1px 3px 3px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background: #fff;
+    height: 190px;
+    
+    .navleft, .navCenter, .navRight{
+        width: 100% !important;
+         margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+ }
+   
+#herobanner{
+        margin-top: 196px;
+
+        .type2{
+            margin-top: 14px;
+        }
+}
+
+}
+
+@media only screen and (max-width: 460px) {
+    // body{
+    //     background-color: orchid ;
+    // }
+}
+
+@media only screen and (max-width: 360px) {
+    // body{
+    //     background-color: peru ;
+    // }
+}
+
